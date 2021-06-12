@@ -1,7 +1,7 @@
 console.log('working')
 
 
-let theme = localStorage.getItem('theme')
+let theme = localStorage.getItem('theme');
 if(theme == null){
     setTheme('light')
 }
@@ -9,20 +9,33 @@ else{
     setTheme(theme)
 }
 
+// var themeDots = document.getElementsByClassName('theme');
+var change = document.querySelector("#nav-content nav ul li svg")
 
-var themeDots = document.getElementsByClassName('theme-dot')
+change.addEventListener('click', function(){
+    if(change.classList.contains("light")){
+        change.classList.remove("light");
+        change.classList.add("dark");
+        setTheme("dark");
+    }
+    else if(change.classList.contains("dark")){
+        change.classList.remove("dark");
+        change.classList.add("light");
+        setTheme("light");
+    }
+})
 
-for(var i = 0; i < themeDots.length; i++){
-    themeDots[i].addEventListener('click', function(){
-        let mode = this.dataset.mode;
-        console.log('Option clicked ', mode)
-        setTheme(mode)
-    })
-}
+// for(var i = 0; i < themeDots.length; i++){
+//     themeDots[i].addEventListener('click', function(){
+//         let mode = this.dataset.mode;
+//         console.log('Option clicked ', mode)
+//         setTheme(mode)
+//     })
+// }
 
 function setTheme(mode){
     if (mode == 'light'){
-        document.getElementById('theme-style').href = 'css/default.css'
+        document.getElementById('theme-style').href = 'css/style.css'
     }
     if (mode == 'dark'){
         document.getElementById('theme-style').href = 'css/dark.css'
