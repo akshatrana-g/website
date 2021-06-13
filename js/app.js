@@ -25,14 +25,6 @@ change.addEventListener('click', function(){
     }
 })
 
-// for(var i = 0; i < themeDots.length; i++){
-//     themeDots[i].addEventListener('click', function(){
-//         let mode = this.dataset.mode;
-//         console.log('Option clicked ', mode)
-//         setTheme(mode)
-//     })
-// }
-
 function setTheme(mode){
     if (mode == 'light'){
         document.getElementById('theme-style').href = 'css/style.css'
@@ -69,3 +61,4 @@ navLinks.forEach( link => {
         navContent.classList.remove('show');
     })
 })
+

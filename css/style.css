@@ -235,7 +235,7 @@ section {
     background-color: crimson;
 }
 #nav-content nav ul li svg{
-    max-width:50px;
+    max-width: 5rem;
     cursor: pointer;
 }
 
