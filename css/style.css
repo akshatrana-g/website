@@ -38,7 +38,7 @@ html {
 
 body {
     background-color: var(--body-bg);
-    transition: 0.3s;
+    transition: 0.5s;
     color: var(--tertiary-color);
 }
 
@@ -323,13 +323,11 @@ section {
     font-size: 6rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    /* line-height: 1.25; */
 }
 
 #hero .left .heading .wrapper {
     display: inline-block;
     overflow: hidden;
-    /* border: 1px solid red; */
 }
 
 #hero .left .heading .wrapper span {
@@ -388,7 +386,9 @@ section {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 0 20px var(--primary-shadow-color);
-    transition: 0.3s ease-in-out;
+    /* animation: fade 0.3s ease-in-out forwards; */
+    animation: fade 0.5s ease-in-out forwards;
+    /* transition: fade; */
 }
 
 #hero .right img:hover {
