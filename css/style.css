@@ -15,7 +15,7 @@
 :root {
     --primary-color: #2a5694;
     --primary-shadow-color: #d2d8df;
-    --secondary-color: #;
+    --secondary-color: #0d081a;
     --tertiary-color: #202040;
     --navbar-color: #0d081a;
     --secondary-grey: #48464b;
@@ -776,7 +776,7 @@ section {
 #footer {
     /* background-color: #311580; */
     background-color: var(--footer-color);
-    color: white;
+    color: var(--body-bg);
     padding: 5rem 0 2rem 0;
     /* text-align: justify; */
 }
@@ -815,6 +815,7 @@ section {
 }
 
 #footer footer .column-heading {
+    color: var(--secondary-color);
     font-family: 'Montserrat';
     font-size: 2rem;
     margin-bottom: 2rem;
