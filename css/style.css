@@ -19,6 +19,7 @@
     --tertiary-color: #202040;
     --navbar-color: #0d081a;
     --secondary-grey: #48464b;
+    --project-card-shadow: #00000028;
     --body-bg: #ecebfa;
     --footer-color: #2a5694;
 }
@@ -655,7 +656,7 @@ section {
     background-color: var(--body-bg);
     padding: 3.2rem 2rem;
     border-radius: 12px;
-    box-shadow: 0 0 20px #00000028;
+    box-shadow: 0 0 20px var(--project-card-shadow);
     z-index: 2;
     transition: transform 0.3s ease-in-out;
 }
