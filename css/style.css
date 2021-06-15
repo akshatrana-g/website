@@ -688,13 +688,12 @@ section {
     right: 0;
     height: 100%;
     width: 100%;
-    /* background-color: #0026ff18; */
 }
 
 #projects .item .left .img img {
     /* padding: 10rem 12rem 10rem 0; */
     object-fit: cover;
-    object-position: 50% 2%;
+    object-position: 50% 1%;
     transition: 0.3s ease transform;
 }
 
@@ -717,6 +716,7 @@ section {
 #projects .item .right .project-desc {
     color: var(--secondary-grey);
     margin-bottom: 3rem;
+    text-align: justify;
 }
 
 #projects .item .right .buttons .external-link {
