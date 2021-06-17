@@ -1,14 +1,13 @@
-console.log("working");
+var changeToDark = document.querySelector("#nav-content nav ul .light");
+var changeToLight = document.querySelector("#nav-content nav ul .dark");
 
 let theme = localStorage.getItem("theme");
 if (theme == null) {
+  changeToLight.classList.add("hide");
   setTheme("light");
 } else {
   setTheme(theme);
 }
-
-var changeToDark = document.querySelector("#nav-content nav ul .light");
-var changeToLight = document.querySelector("#nav-content nav ul .dark");
 
 changeToDark.addEventListener("click", function () {
   changeToDark.classList.add("hide");
@@ -23,9 +22,12 @@ changeToLight.addEventListener("click", function () {
 
 function setTheme(mode) {
   if (mode == "light") {
+    changeToLight.classList.add("hide");
     document.getElementById("theme-style").href = "css/style.css";
   }
   if (mode == "dark") {
+    changeToDark.classList.add("hide");
+    changeToLight.classList.remove("hide");
     document.getElementById("theme-style").href = "css/dark.css";
   }
   localStorage.setItem("theme", mode);
