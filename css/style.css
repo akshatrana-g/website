@@ -397,11 +397,12 @@ section {
     box-shadow: 0 0 20px var(--primary-shadow-color);
     animation: fade 0.5s ease-in-out forwards;
     transition: transform 0.3s ease-in-out;
+    z-index: 100;
 }
 
-#hero .right img:hover {
+/* #hero .right img:hover {
     transform: scale(1.1);
-}
+} */
 
 @media only screen and (max-width: 760px) {
     html {
@@ -452,7 +453,7 @@ section {
 /* About section */
 
 #about {
-    padding: 5rem 0;
+    padding-top: 20rem;
 }
 
 #about .wrapper {
@@ -537,6 +538,7 @@ section {
 /* skills section */
 
 #skills {
+    padding-top: 15rem;
     padding-bottom: 5rem;
 }
 
