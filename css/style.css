@@ -473,7 +473,8 @@ section {
     box-shadow: 0px 0px 50px var(--primary-shadow-color);
     padding: 5rem 3rem;
     border-radius: 12px;
-    min-height: 400px;
+    min-height: 200px;
+    max-width: 450px;
     transition: 0.3s ease transform;
 }
 
@@ -565,8 +566,8 @@ section {
     padding: 1rem 2rem;
     border-radius: 15px;
     transition: transform 0.3s ease;
-    min-width: 290px;
-    min-height: 100px;
+    min-width: 100px;
+    min-height: 50px;
 }
 
 .skill-box:hover {
@@ -577,7 +578,7 @@ section {
     /* overflow: hidden; */
     margin-right: 12px;
     width: 55px;
-    height: 55px;
+    height: 70px;
     font-size: 5.5rem;
     border-radius: 50%;
     /* background-color: red; */
