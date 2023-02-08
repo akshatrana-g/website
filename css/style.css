@@ -590,7 +590,7 @@ section {
     width: 85px;
     height: 60px;
     font-size: 5.5rem;
-    border-radius: 50%;
+    border-radius: 50;
     /* background-color: red; */
     /* text-align: center; */
 }
