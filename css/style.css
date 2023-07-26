@@ -378,6 +378,7 @@ section {
 }
 
 #hero .left .desc span {
+    font-size: 2rem;
     font-weight: 600;
     color: var(--primary-color);
 }
