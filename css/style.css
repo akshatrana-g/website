@@ -424,15 +424,17 @@ section {
         font-size: 9px;
     }
     #hero {
+        height: 80vh;
         margin-top: 15rem;
     }
     #hero .container {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     #hero .container .right {
         text-align: center;
         flex: 1;
-        margin-bottom: 1rem;
+        margin-top: 6rem;
+        /* margin-bottom: 1rem; */
     }
     #hero .container .right img {
         width: 100%;
@@ -468,7 +470,7 @@ section {
 /* About section */
 
 #about {
-    padding-top: 8rem;
+    padding-top: 5rem;
 }
 
 #about .wrapper {
@@ -661,7 +663,7 @@ section {
 /* Projects section */
 
 #projects {
-    padding: 10rem 0;
+    padding: 10rem 0 5rem;
 }
 
 #projects .all-items {
