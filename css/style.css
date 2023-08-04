@@ -9,12 +9,12 @@
     --primary-color: #1D5D9B;
     --button-bg-color: #ecebfa;
     --button-hover: #0f5fcf;
-    --primary-shadow-color: #676767c5;
+    --primary-shadow-color: #e1c1c1;
     --secondary-color: #0d081a;
     --tertiary-color: #202040;
     --navbar-color: #0d081a;
     --secondary-grey: #48464b;
-    --project-card-shadow: #8c8c8c;
+    --project-card-shadow: #d2d2d2;
     --body-bg: #FAF3F0;
     --footer-color: #2a5694;
     --footer-heading: #ecebfa;
@@ -26,6 +26,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 html {
@@ -36,7 +37,9 @@ html {
 }
 
 body {
-    background-color: var(--body-bg);
+    /* background: rgb(250,243,240); */
+/* background: linear-gradient(135deg, rgba(250,243,240,1) 0%, rgba(255,210,191,1) 53%, rgba(255,176,142,1) 100%); */
+background-color: var(--body-bg);
     transition: 0.5s;
     color: var(--tertiary-color);
 }
