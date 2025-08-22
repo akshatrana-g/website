@@ -73,7 +73,7 @@ section {
     width: 90%;
     height: 100%;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1500px;
 }
 
 .primary-btn {
@@ -689,7 +689,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-bottom: 5rem;
 }
